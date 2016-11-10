@@ -1,0 +1,9 @@
+<h1>{{ diputado.nombre }}</h1>
+<p>Fecha de Nacimiento: <i>{{ diputado.fechaNacimiento }}</i></p>
+<p>Ciudad: <i>{{ diputado.ciudad }}</i></p>
+<p>Pais: <i>{{ diputado.pais }}</i></p>
+<p>Email: <i>{{ diputado.email }}</i></p>
+<p>Suplente: <i>{{ diputado.suplente }}</i></p>
+<p>
+    <a href="{% url "leyes:list" %}">Regresar</a>
+</p>
